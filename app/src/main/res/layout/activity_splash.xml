@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/workspaceee"
+    tools:context=".SplashActivity">
+<TextView
+    android:id="@+id/worktext"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Work"
+    android:textStyle="normal"
+    android:textSize="60dp"
+    android:textColor="@android:color/background_dark"
+    android:layout_marginTop="300dp"
+    android:layout_marginLeft="70dp"
+    />
+
+    <TextView
+        android:id="@+id/yardtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/worktext"
+        android:layout_marginTop="300dp"
+        android:text="Yard"
+        android:textColor="@android:color/background_light"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sharta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/worktext"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="-60dp"
+        android:text="____________"
+        android:textColor="@android:color/background_dark"
+        android:textSize="50dp"
+        android:textStyle="normal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Your Co-Working Space!"
+        android:textColor="@android:color/background_dark"
+        android:layout_below="@id/sharta"
+        android:textStyle="normal"
+        android:layout_centerHorizontal="true"
+         android:textSize="25dp"/>
+
+
+
+</RelativeLayout>
